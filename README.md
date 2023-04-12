@@ -20,6 +20,7 @@
 
 ## Usage
 - Run `php artisan serv`
+- GO To `http://localhost:8000/`
 
 ## License
 
