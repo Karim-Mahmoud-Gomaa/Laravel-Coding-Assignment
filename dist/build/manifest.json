@@ -1,0 +1,69 @@
+{
+  "resources/img/404-error.png": {
+    "file": "assets/404-error.25a42a0d.png",
+    "src": "resources/img/404-error.png"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app.7c3c19f8.js",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app.1bdedf1a.js",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/pages/home/Home.vue",
+      "resources/js/pages/login/SignIn.vue",
+      "resources/js/pages/Errors/404.vue"
+    ],
+    "css": [
+      "assets/app.0254e84a.css"
+    ]
+  },
+  "resources/js/pages/home/Home.vue": {
+    "file": "assets/Home.0cdeb6bf.js",
+    "src": "resources/js/pages/home/Home.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/Home.8bfab0b0.css"
+    ]
+  },
+  "resources/js/pages/login/SignIn.vue": {
+    "file": "assets/SignIn.6fd70254.js",
+    "src": "resources/js/pages/login/SignIn.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/SignIn.adca029e.css"
+    ]
+  },
+  "resources/js/pages/Errors/404.vue": {
+    "file": "assets/404.61f09c06.js",
+    "src": "resources/js/pages/Errors/404.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "assets": [
+      "assets/404-error.25a42a0d.png"
+    ]
+  },
+  "resources/js/app.css": {
+    "file": "assets/app.0254e84a.css",
+    "src": "resources/js/app.css"
+  },
+  "resources/js/pages/home/Home.css": {
+    "file": "assets/Home.8bfab0b0.css",
+    "src": "resources/js/pages/home/Home.css"
+  },
+  "resources/js/pages/login/SignIn.css": {
+    "file": "assets/SignIn.adca029e.css",
+    "src": "resources/js/pages/login/SignIn.css"
+  }
+}
