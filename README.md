@@ -12,6 +12,7 @@
 ## Install & migration DB
 
 - Create DataBase & change details in `.env File`
+- Run `composer install`
 - Run `php artisan sys:install`
 
 ## Tisting
