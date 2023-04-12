@@ -9,10 +9,9 @@
 
 ## Details
 
-php require version : `7.3 | 8.0`
-laravel framework version : `8`
-VueJS version : `3`
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- php require version : `7.3 | 8.0`
+- laravel framework version : `8`
+- VueJS version : `3`
 
 ## Learning Laravel
 
