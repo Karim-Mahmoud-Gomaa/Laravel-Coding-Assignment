@@ -5,7 +5,6 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\API\{
     AuthController,
     PostsController,
-    PublicController
 };
 /*
 |--------------------------------------------------------------------------
@@ -23,7 +22,6 @@ Route::post('register', [AuthController::class,'register']);
 
 Route::group(["middleware" => ["auth:api"]], function(){
     Route::post('logout', [AuthController::class,'logout']);
-    Route::get('home', [PublicController::class,'home']);
     Route::get('user', [AuthController::class,'user']);
     
     Route::resource('posts', PostsController::class);
